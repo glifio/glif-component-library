@@ -1,19 +1,22 @@
 {
-  "name": "component-lib",
+  "name": "@openworklabs/components",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/index.js",
   "license": "MIT",
-  "peerDependencies": {
-    "prop-types": "^15",
-    "react": "^16",
-    "react-dom": "^16"
-  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "peerDependencies": {
+    "prop-types": "^15",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.1",
+    "styled-components": "5.2.0",
+    "styled-system": "5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",
@@ -27,9 +30,12 @@
     "jest": "^26",
     "neutrino": "^9.4.0",
     "prop-types": "^15",
-    "react": "^16",
-    "react-dom": "^16",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-is": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "styled-components": "5.2.0",
+    "styled-system": "5.1.5",
     "webpack": "^4",
     "webpack-cli": "^3",
     "webpack-dev-server": "^3"
@@ -41,7 +47,7 @@
     "bip39": "^3.0.2",
     "dayjs": "^1.8.35",
     "next": "^9.5.3",
-    "styled-components": "^5.1.1",
-    "styled-system": "^5.1.5"
+    "styled-components": "5.2.0",
+    "styled-system": "5.1.5"
   }
 }

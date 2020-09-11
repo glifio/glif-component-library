@@ -5,7 +5,7 @@ import Box from '../Box'
 import Glyph from '../Glyph'
 import Card from '../Card'
 import { Text, Title } from '../Typography'
-import truncate from '../utils/truncateAddress'
+import truncate from '../../utils/truncateAddress'
 
 const AccountCardAlt = ({
   address,

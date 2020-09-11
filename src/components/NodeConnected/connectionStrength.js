@@ -10,7 +10,7 @@ import axios from 'axios'
 import LotusRPCEngine from '@openworklabs/lotus-jsonrpc-engine'
 
 import { FILSCOUT, FILSCAN_JSONRPC } from '../constants'
-// import reportError from '../utils/reportError'
+// import reportError from '../../utils/reportError'
 
 const TIPSET_PADDING = 15
 

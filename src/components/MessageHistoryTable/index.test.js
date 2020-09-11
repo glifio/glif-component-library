@@ -4,8 +4,8 @@ import MessageHistoryTable from './index'
 import composeMockAppTree from '../../../test-utils/composeMockAppTree'
 import { filscoutMockData } from '../../../test-utils/mockData'
 import { formatFilscoutMessages } from '../../Wallet/Message/formatMessages'
-import noop from '../../../utils/noop'
-import makeFriendlyBalance from '../../../utils/makeFriendlyBalance'
+import noop from '../../../../utils/noop'
+import makeFriendlyBalance from '../../../../utils/makeFriendlyBalance'
 
 describe('MessageHistoryTable', () => {
   afterEach(cleanup)

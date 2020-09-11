@@ -2,7 +2,7 @@ import React from 'react'
 import { FilecoinNumber } from '@openworklabs/filecoin-number'
 import { fireEvent, cleanup, render, act } from '@testing-library/react'
 import BalanceCard from '.'
-import noop from '../../../utils/noop'
+import noop from '../../../../utils/noop'
 import ThemeProvider from '../ThemeProvider'
 
 describe('BalanceCard', () => {

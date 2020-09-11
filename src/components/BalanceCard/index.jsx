@@ -4,8 +4,8 @@ import Box from '../Box'
 import Button from '../Button'
 import { Num, Label } from '../Typography'
 import { FILECOIN_NUMBER_PROP } from '../customPropTypes'
-import makeFriendlyBalance from '../utils/makeFriendlyBalance'
-import { useConverter } from '../lib/Converter'
+import makeFriendlyBalance from '../../utils/makeFriendlyBalance'
+import { useConverter } from '../../lib/Converter'
 import ApproximationToggleBtn from './ApproximationToggleBtn'
 
 const BalanceCard = forwardRef(

@@ -6,8 +6,8 @@ import Box from '../Box'
 import { RawNumberInput, DenomTag } from './Number'
 import { Text, Label } from '../Typography'
 import { FILECOIN_NUMBER_PROP } from '../customPropTypes'
-import noop from '../utils/noop'
-import { useConverter } from '../lib/Converter'
+import noop from '../../utils/noop'
+import { useConverter } from '../../lib/Converter'
 
 const formatFilValue = number => {
   if (!number) return ''

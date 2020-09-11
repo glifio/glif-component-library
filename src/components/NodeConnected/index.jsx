@@ -2,10 +2,11 @@ import React, { useEffect, useRef, useState, useCallback, forwardRef } from 'rea
 import PropTypes from 'prop-types'
 import styled, { keyframes } from 'styled-components'
 import calcConnectionStrength from './connectionStrength'
-import noop from '../utils/noop'
-// import reportError from '../../../utils/reportError'
+import noop from '../../utils/noop'
+// import reportError from '../../../../utils/reportError'
 import Box from '../Box'
 import { Text } from '../Typography'
+
 
 const dotColor = ({ connectionStrength, theme: { colors } }) => {
   if (connectionStrength === -1) return colors.status.pending.background

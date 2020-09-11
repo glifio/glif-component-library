@@ -4,8 +4,8 @@ import Box from '../Box'
 import BaseButton from '../Button/BaseButton'
 import { IconCopyAccountAddress } from '../Icons'
 import { Label, Title as AccountAddress } from '../Typography'
-import truncate from '../utils/truncateAddress'
-import copyToClipboard from '../utils/copyToClipboard'
+import truncate from '../../utils/truncateAddress'
+import copyToClipboard from '../../utils/copyToClipboard'
 import { ADDRESS_PROPTYPE } from '../customPropTypes'
 
 export const Copy = styled(BaseButton)`

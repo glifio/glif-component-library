@@ -5,7 +5,7 @@ import { ADDRESS_PROPTYPE } from '../customPropTypes'
 import Box from '../Box'
 import { Text } from '../Typography'
 import theme from '../theme'
-import copyToClipboard from '../utils/copyToClipboard'
+import copyToClipboard from '../../utils/copyToClipboard'
 
 const Wrapper = styled(Box).attrs(() => ({
   border: 1,

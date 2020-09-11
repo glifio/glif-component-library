@@ -8,8 +8,8 @@ import Button from '../Button'
 import BaseButton from '../Button/BaseButton'
 import { IconCopyAccountAddress } from '../Icons'
 import { Text, Label, Title as AccountAddress } from '../Typography'
-import truncate from '../utils/truncateAddress'
-import copyToClipboard from '../utils/copyToClipboard'
+import truncate from '../../utils/truncateAddress'
+import copyToClipboard from '../../utils/copyToClipboard'
 import {
   LEDGER,
   CREATE_MNEMONIC,

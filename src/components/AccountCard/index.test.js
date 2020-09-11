@@ -1,8 +1,8 @@
 import { cleanup, render, screen, act, fireEvent } from '@testing-library/react'
 import AccountCard from '.'
 import composeMockAppTree from '../../../test-utils/composeMockAppTree'
-jest.mock('../../../utils/copyToClipboard')
-import copyToClipboard from '../../../utils/copyToClipboard'
+jest.mock('../../../../utils/copyToClipboard')
+import copyToClipboard from '../../../../utils/copyToClipboard'
 
 describe('AccountCard', () => {
   afterEach(cleanup)
